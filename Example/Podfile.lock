@@ -1,0 +1,26 @@
+PODS:
+  - BXModel (0.1.0):
+    - SwiftyJSON
+  - BXPopover (0.1.0):
+    - BXModel
+    - PinAutoLayout
+  - PinAutoLayout (1.0.1)
+  - Reveal-iOS-SDK (1.6.2)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - BXPopover (from `../`)
+  - Reveal-iOS-SDK
+
+EXTERNAL SOURCES:
+  BXPopover:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BXModel: cafda844bd7cd91f11767a57df17eec502b4dfa9
+  BXPopover: eaf7daaa8d9c5e49c4dcffd98285af94231f6c00
+  PinAutoLayout: ab4a1a9cdd9f2b6b1ea8371c8384be1164b0865e
+  Reveal-iOS-SDK: e2250b3c155bcfac53ae223ddc1f76d08f206c33
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0

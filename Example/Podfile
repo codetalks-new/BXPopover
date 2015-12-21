@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'BXPopover_Example', :exclusive => true do
   pod "BXPopover", :path => "../"
+    pod 'Reveal-iOS-SDK', :configurations => ['Debug']
 end
 
 target 'BXPopover_Tests', :exclusive => true do
